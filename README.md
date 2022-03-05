@@ -14,6 +14,9 @@ This package uses the algorithm described in [this article](http://doi.ieeecompu
 
 ## Usage
 
+```bash
+go get github.com/knuppe/rslp@v1.0.1
+```
 
 Here is a minimal Go program that uses this package in order
 to stem a single word **or** a sentence.
