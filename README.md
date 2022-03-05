@@ -5,6 +5,7 @@ A [Go (golang)](http://golang.org) implementation of the Stemming Algorithm for 
 [![Codecov](https://codecov.io/gh/knuppe/rslp/branch/main/graph/badge.svg)](https://codecov.io/gh/knuppe/rslp)
 [![Go](https://github.com/knuppe/rslp/actions/workflows/go.yml/badge.svg)](https://github.com/knuppe/rslp/actions/workflows/go.yml)
 [![CodeQL](https://github.com/knuppe/rslp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/knuppe/rslp/actions/workflows/codeql-analysis.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/knuppe/rslp)](https://goreportcard.com/report/github.com/knuppe/rslp)
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This package uses the algorithm described in [this article](http://doi.ieeecomputersociety.org/10.1109/SPIRE.2001.10024) by Viviane Moreira Orengo and Christian Huyck.
@@ -15,7 +16,7 @@ This package uses the algorithm described in [this article](http://doi.ieeecompu
 ## Usage
 
 ```bash
-go get github.com/knuppe/rslp@v1.0.0
+go get -u github.com/knuppe/rslp@v1.0.1
 ```
 
 Here is a minimal Go program that uses this package in order

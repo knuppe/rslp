@@ -356,6 +356,7 @@ var steps = map[string]*step{
 
 var normalize = transform.Chain(norm.NFD, runes.Remove(runes.In(unicode.Mn)), norm.NFC)
 
+// Stems a sentence. It returns the same sentence but with all words stemmed.
 func StemSentence(sentence string, removeDiacritics ...bool) string {
 	var buf strings.Builder
 	for index, word := range strings.Fields(sentence) {
@@ -367,6 +368,7 @@ func StemSentence(sentence string, removeDiacritics ...bool) string {
 	return buf.String()
 }
 
+// Stems a single word. It returns the stemmed word.
 func Stem(word string, removeDiacritics ...bool) string {
 	if len(word) <= 3 {
 		return strings.TrimSpace(strings.ToLower(word))
