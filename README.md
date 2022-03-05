@@ -2,6 +2,11 @@
 
 A [Go (golang)](http://golang.org) implementation of the Stemming Algorithm for the Portuguese Language for natural language processing.
 
+[![Codecov](https://codecov.io/gh/knuppe/rslp/branch/main/graph/badge.svg)](https://codecov.io/gh/knuppe/rslp)
+[![Go](https://github.com/knuppe/rslp/actions/workflows/go.yml/badge.svg)](https://github.com/knuppe/rslp/actions/workflows/go.yml)
+[![CodeQL](https://github.com/knuppe/rslp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/knuppe/rslp/actions/workflows/codeql-analysis.yml)
+[![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 This package uses the algorithm described in [this article](http://doi.ieeecomputersociety.org/10.1109/SPIRE.2001.10024) by Viviane Moreira Orengo and Christian Huyck.
 
 ![Schema](https://raw.githubusercontent.com/knuppe/rslp/main/steps.png)
