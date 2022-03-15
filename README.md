@@ -16,7 +16,7 @@ This package uses the algorithm described in [this article](http://doi.ieeecompu
 ## Usage
 
 ```bash
-go get -u github.com/knuppe/rslp@v1.0.1
+go get -u github.com/knuppe/rslp@latest
 ```
 
 Here is a minimal Go program that uses this package in order
